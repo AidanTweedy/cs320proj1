@@ -2,6 +2,8 @@
 
 //Constructor
 Predictor::Predictor(vector<long> hAddress, vector<String> Ppath) : hAddress(hAddress), bPrediction(bPrediction){
+    this->bPredition = Ppath;
+    this->hAddress = hAddress;
     if(hAddress.size() == bPrediction.size()){
     }
 }
